@@ -1,11 +1,10 @@
-﻿@using System.Reflection
-@using Constellation.Feature.PageTagging.Models
+﻿@using Constellation.Feature.PageTagging.Models
 @using Constellation.Foundation.ModelMapping
 @model RenderingModel
 @{
 	Layout = null;
-	var viewModel = Model.Item.MapToNew<PageMetadata>();
-	var version = HttpContext.Current.Application.GetType().Assembly.GetName().Version.ToString();
+	var viewModel = MappingContext.Current.MapItemToNew<PageMetadata>(Model.Item);
+	var version = System.Web.Compilation.BuildManager.GetGlobalAsaxType().BaseType.Assembly.GetName().Version.ToString();
 	// Use version for cache-busting of asset files
 }
 <!DOCTYPE html>
