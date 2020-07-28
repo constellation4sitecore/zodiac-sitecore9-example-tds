@@ -479,7 +479,6 @@
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.MediaSettings.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Enable.Publishing.Accelerators.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.PublishingSettings.config" />
-    <Content Include="App_Config\Include\Project\ExampleSite\SiteCacheClearing.config" />
     <Content Include="App_Config\Include\Project\ExampleSite\SiteLanguages.config" />
     <Content Include="App_Config\Include\Project\ExampleSite\SitemapXml.config" />
     <Content Include="App_Config\Include\Project\ExampleSite\SitePageNotFound.config" />
@@ -505,7 +504,6 @@
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.SitemapXml.PageTagging.Override.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Mvc.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Mvc.Patterns.config" />
-    <None Include="App_Config\Include\Project\ProjectName\SiteCacheClearing.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SiteLanguages.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SitemapXml.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SitePageNotFound.config.example" />
